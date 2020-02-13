@@ -67,7 +67,7 @@ a:focus{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: auto;
-	min-height: 710px;	
+	min-height: 710px;
 	padding-top: 60px;
 	color: #ffffff;
 }
@@ -93,11 +93,11 @@ a:focus{
 .header-text.btn:hover{
 	color: inherit;
 }
-.header-text.btn:focus, 
-.header-text.btn:active:focus, 
-.header-text.btn.active:focus, 
-.header-text.btn.focus, 
-.header-text.btn:active.focus, 
+.header-text.btn:focus,
+.header-text.btn:active:focus,
+.header-text.btn.active:focus,
+.header-text.btn.focus,
+.header-text.btn:active.focus,
 .header-text.btn.active.focus {
 	outline: thin dotted transparent;
 	outline: none;
@@ -132,7 +132,7 @@ span.typed-cursor {
 	position: relative;
 }
 /*.header-text{
-	margin-top: 20px;	
+	margin-top: 20px;
 	position: absolute;
 	border: 1px solid #ffffff;
 	left: 25%;
@@ -156,15 +156,15 @@ nav#menu span.fa.fa-bars{
 width: 270px;
 z-index: 10;
 }
-.navmenu-default, 
+.navmenu-default,
 .navbar-default .navbar-offcanvas {
 	background-color: #1E2429;
 	border-color: #1E2429;
 	border: 0;
 }
-.navmenu-default .navmenu-nav>li>a:hover, 
-.navbar-default .navbar-offcanvas .navmenu-nav>li>a:hover, 
-.navmenu-default .navmenu-nav>li>a:focus, 
+.navmenu-default .navmenu-nav>li>a:hover,
+.navbar-default .navbar-offcanvas .navmenu-nav>li>a:hover,
+.navmenu-default .navmenu-nav>li>a:focus,
 .navbar-default .navbar-offcanvas .navmenu-nav>li>a:focus {
 color: #C59A6D;
 background-color: transparent;
@@ -174,7 +174,7 @@ position: relative;
 display: block;
 text-align: center;
 }
-.navmenu-default .navmenu-nav>li>a, 
+.navmenu-default .navmenu-nav>li>a,
 .navbar-default .navbar-offcanvas .navmenu-nav>li>a {
 color: #ffffff;
 text-transform: uppercase;
@@ -184,11 +184,11 @@ line-height: 30px;
 nav#menu span.fa.fa-bars:hover {
 color: #C59A6D;
 }
-.navmenu-default .navmenu-nav>.active>a, 
-.navbar-default .navbar-offcanvas .navmenu-nav>.active>a, 
-.navmenu-default .navmenu-nav>.active>a:hover, 
-.navbar-default .navbar-offcanvas .navmenu-nav>.active>a:hover, 
-.navmenu-default .navmenu-nav>.active>a:focus, 
+.navmenu-default .navmenu-nav>.active>a,
+.navbar-default .navbar-offcanvas .navmenu-nav>.active>a,
+.navmenu-default .navmenu-nav>.active>a:hover,
+.navbar-default .navbar-offcanvas .navmenu-nav>.active>a:hover,
+.navmenu-default .navmenu-nav>.active>a:focus,
 .navbar-default .navbar-offcanvas .navmenu-nav>.active>a:focus {
 color: #C59A6D;
 background-color: transparent;
@@ -209,10 +209,9 @@ background-color: transparent;
 	margin-top: 200px;
 }
 
-#meet-us,
-#services,
-#works,
-#about-us{
+#about-me,
+#applications,
+#tools{
 	padding: 60px 0;
 }
 
@@ -257,6 +256,8 @@ a.down-btn span.fa.fa-angle-down {
 	transition: all 0.3s;
 	position: relative;
 	padding: 60px 25px;
+	height: 200px;
+	width: 225px;
 }
 .service:hover>h4,
 .service:hover>span.fa{
@@ -264,11 +265,11 @@ a.down-btn span.fa.fa-angle-down {
 }
 .service:hover{
 	border-color: #c59a6d;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	/* margin-top: 0px;
+	margin-bottom: 0px; */
 	cursor: pointer;
-	padding-top: 80px;
-	padding-bottom: 80px;
+	/* padding-top: 80px;
+	padding-bottom: 80px; */
 }
 .service p{
 	font-size: 14px;
@@ -453,7 +454,7 @@ ul.clients li{
 	margin: 0 auto;
 }
 
-#testimonials {
+#gitHubCalendar {
 	background: url(../img/bg4.jpg);
 	background-size: cover;
 	background-position: center;
@@ -462,7 +463,7 @@ ul.clients li{
 	text-align: center;
 }
 
-#testimonials .overlay{
+#gitHubCalendar .overlay{
 	background: rgba(34, 34, 34, 0.85);
 	height: auto;
 	min-height: 200px;
@@ -557,28 +558,28 @@ margin-bottom: 30px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color:    #222222;
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     letter-spacing: 1px;
     font-style: italic;
 }
-input:-moz-placeholder, textarea:-moz-placeholder { 
+input:-moz-placeholder, textarea:-moz-placeholder {
     color:    #222222;
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     letter-spacing: 1px;
     font-style: italic;
 }
-input::-moz-placeholder, textarea::-moz-placeholder { 
+input::-moz-placeholder, textarea::-moz-placeholder {
     color:    #222222;
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     letter-spacing: 1px;
     font-style: italic;
 }
-input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     color:    #222222;
     font-family: 'Lato', sans-serif;
     font-size: 13px;
@@ -602,3 +603,135 @@ nav#footer{
 }
 #footer a:hover{
 	color: #c59a6d;}
+
+	.calendar {
+    width: 750px;
+    font-family: Helvetica, arial;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    min-height: 243px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.calendar-graph text.wday,
+.calendar-graph text.month {
+    font-size: 10px;
+    fill: #aaa;
+}
+
+.contrib-legend {
+    text-align: right;
+    padding: 0 14px 10px 0;
+    display: inline-block;
+    float: right;
+}
+
+.contrib-legend .legend {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+    position: relative;
+    bottom: -1px;
+    padding: 0;
+}
+
+.contrib-legend .legend li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.text-small {
+    font-size: 12px;
+    color: #767676;
+}
+
+.calendar-graph {
+    padding: 5px 0 0;
+    height: 126px;
+    text-align: center;
+}
+
+.contrib-column {
+    padding: 15px 0;
+    text-align: center;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    font-size: 11px;
+}
+
+.contrib-column-first {
+    border-left: 0;
+}
+
+.table-column {
+    display: table-cell;
+    width: 1%;
+    padding-right: 10px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+.contrib-number {
+    font-weight: 300;
+    line-height: 1.3em;
+    font-size: 24px;
+    display: block;
+    color: white;
+}
+
+.calendar img.spinner {
+    width: 70px;
+    margin-top: 50px;
+    min-height: 70px;
+}
+
+.monospace {
+    text-align: center;
+    color: #000;
+    font-family: monospace;
+}
+
+.monospace a {
+    color: #1D75AB;
+    text-decoration: none;
+}
+
+.contrib-footer {
+    font-size: 11px;
+    padding: 0 10px 12px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    height: 26px;
+}
+
+.left.text-muted {
+    float: left;
+    margin-left: 9px;
+    color: #767676;
+}
+.left.text-muted a {
+    color: #4078c0;
+    text-decoration: none;
+}
+.left.text-muted a:hover,
+.monospace a:hover {
+    text-decoration: underline;
+}
+
+h2.f4.text-normal.mb-3 {
+    display: none;
+}
+
+.float-left.text-gray {
+    float: left;
+}
+#user-activity-overview{
+    display:none;
+}
+
+.calendar a{
+	color: white
+}

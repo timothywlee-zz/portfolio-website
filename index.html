@@ -6,11 +6,12 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Arcadia Free Bootstrap Template - Home Page</title>
-    <meta name="description" content="Your Description Here">
-    <meta name="keywords" content="free boostrap, bootstrap template, freebies, free theme, free website, free portfolio theme, portfolio, personal, cv">
-    <meta name="author" content="Jenn, ThemeForces.com">
-    
+    <title>Timothy Lee | FullStack Developer</title>
+
+    <!-- GitHub Calendar -->
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
     <!-- Favicons
     ================================================== -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -20,9 +21,12 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="font-awesome-4.2.0/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/jasny-bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
 
     <!-- Slider
     ================================================== -->
@@ -52,16 +56,16 @@
     ================================================== -->
     <div class="navmenu navmenu-default navmenu-fixed-left offcanvas"> <!--- Off Canvas Side Menu -->
         <div class="close" data-toggle="offcanvas" data-target=".navmenu">
-            <span class="fa fa-close"></span>
+            <i class="fa fa-close"></i>
         </div>
         <div class="add-margin"></div>
         <ul class="nav navmenu-nav"> <!--- Menu -->
             <li><a href="#home" class="page-scroll">Home</a></li>
-            <li><a href="#meet-us" class="page-scroll">Overview</a></li>
-            <li><a href="#services" class="page-scroll">Services</a></li>
-            <li><a href="#works" class="page-scroll">Portfolio</a></li>
-            <li><a href="#about-us" class="page-scroll">About Us</a></li>
-            <li><a href="#contact" class="page-scroll">Contact Us</a></li>
+            <li><a href="#about-me" class="page-scroll">About Me</a></li>
+            <li><a href="#applications" class="page-scroll">Applications</a></li>
+            <li><a href="#skills" class="page-scroll">Skills</a></li>
+            <li><a href="#tools" class="page-scroll">Tools</a></li>
+            <li><a href="#contact" class="page-scroll">Contact</a></li>
         </ul><!--- End Menu -->
     </div> <!--- End Off Canvas Side Menu -->
 
@@ -74,299 +78,316 @@
             </nav>
 
             <div class="content">
-                <h4>We've got the special power</h4>
+                <h2> Timothy Lee </h2>
                 <hr>
                 <div class="header-text btn">
                     <h1><span id="head-title"></span></h1>
                 </div>
             </div>
 
-            <a href="#meet-us" class="down-btn page-scroll">
+            <!-- <a href="#about-me" class="down-btn page-scroll">
                 <span class="fa fa-angle-down"></span>
-            </a>
+            </a> -->
         </div>
     </div>
 
-    <!-- Meet Us Section -->
-    <div id="meet-us">
+    <!-- About Me Section -->
+    <div id="about-me">
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="section-title">
-                        <h2>Meet Us</h2>
+                        <h2>About Me</h2>
                         <hr>
                     </div>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                    <a href="#services" class="down-btn page-scroll">
+                    <!-- <a href="#applications" class="down-btn page-scroll">
                         <span class="fa fa-angle-down"></span>
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Overview Video Section -->
-    <div id="overview-video">
-        <div class="overlay">
+        <!-- Applications Section -->
+        <div id="applications">
             <div class="container">
-                <a href="#">
-                    <span class="fa fa-play"></span>
-                </a>
+                <div class="row text-center">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-title">
+                            <h2>Applications</h2>
+                            <hr>
+                        </div>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                            deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                            provident.</p>
+                    </div>
+                </div>
+                <div class="space"></div>
             </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 nopadding">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a href="#">
+                                    <div class="hover-text">
+                                        <h5>Logo Design</h5>
+                                        <p class="lead">Client Seal</p>
+                                        <div class="hline"></div>
+                                    </div>
+                                    <img src="img/portfolio/01.jpg" class="img-responsive" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 nopadding">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a href="#">
+                                    <div class="hover-text">
+                                        <h5>Stationery</h5>
+                                        <p class="lead">Design Project</p>
+                                        <div class="hline"></div>
+                                    </div>
+                                    <img src="img/portfolio/02.jpg" class="img-responsive" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 nopadding">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a href="#">
+                                    <div class="hover-text">
+                                        <h5>Branding</h5>
+                                        <p class="lead">Metalbrand</p>
+                                        <div class="hline"></div>
+                                    </div>
+                                </a>
+                                <img src="img/portfolio/03.jpg" class="img-responsive" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 nopadding">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a href="#">
+                                    <div class="hover-text">
+                                        <h5>Business Card</h5>
+                                        <p class="lead">Clothing Line</p>
+                                        <div class="hline"></div>
+                                    </div>
+                                </a>
+                                <img src="img/portfolio/04.jpg" class="img-responsive" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space"></div>
+            <!-- <div class="text-center">
+                <a href="#" class="btn read-more-btn">Check on Dribbble</a>
+                <br>
+                <a href="#about-us" class="down-btn page-scroll"><span class="fa fa-angle-down"></span></a>
+            </div> -->
         </div>
-    </div>
 
-    <!-- Services Section -->
-    <div id="services">
+    <!-- Skills Section -->
+    <div id="skills">
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="section-title">
-                        <h2>Services</h2>
+                        <h2>Skills</h2>
                         <hr>
                     </div>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
                 </div>
             </div>
 
             <div class="space"></div>
 
-            <div class="row">
-                <div class="col-md-4 col-sm-4">
+            <div class="row col-12 d-flex justify-content-center align-items-center">
+                <div class="col-md-3 col-sm-3">
                     <div class="service">
-                        <span class="fa fa-book fa-3x"></span>
-                        <h4>Branding</h4>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis. </p>
+                        <i class="devicon-javascript-plain colored fa-3x"></i>
+                        <h4>JavaScript</h4>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-4">
+                <div class="col-md-3 col-sm-3">
                     <div class="service">
-                        <span class="fa fa-bicycle fa-3x"></span>
-                        <h4>Web Devepment</h4>
-                        <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Accusamus et. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis </p>
+                        <i class="devicon-react-original coclored fa-3x"></i>
+                        <h4>React.js</h4>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-4">
+                <div class="col-md-3 col-sm-3">
                     <div class="service">
-                        <span class="fa fa-plug fa-3x"></span>
-                        <h4>App Design</h4>
-                        <p>Nulla vitae elit libero, a pharetra augue. At vero eos et accusamus et iusto odio dignissimos ducimus. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. </p>
+                        <span class="devicon-nodejs-plain colored fa-3x"></span>
+                        <h4>Node.js</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="devicon-postgresql-plain colored fa-3x"></span>
+                        <h4>PostgreSQL</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="devicon-jquery-plain colored fa-3x"></span>
+                        <h4>jQuery</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="devicon-bootstrap-plain colored fa-3x"></span>
+                        <h4>Bootstrap</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="devicon-html5-plain colored fa-3x"></span>
+                        <h4>HTML5</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="devicon-css3-plain colored fa-3x"></span>
+                        <h4>CSS3</h4>
                     </div>
                 </div>
             </div>
-            <a href="#works" class="down-btn page-scroll">
+            <!-- <a href="#works" class="down-btn page-scroll">
                 <span class="fa fa-angle-down"></span>
-            </a>
+            </a> -->
         </div>
     </div>
 
-    <!-- Call-to-Action Section -->
-    <div id="cta">
+    <!-- Tools Section -->
+    <div id="tools">
         <div class="container text-center">
-            <a href="#" class="btn go-to-btn">Check our shop</a>
-        </div>
-    </div>
-
-    <!-- Portfolio Section -->
-    <div id="works">
-        <div class="container">
-            <div class="row text-center">
+            <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="section-title">
-                        <h2>Our Latest Projects</h2>
+                        <h2> Tools</h2>
                         <hr>
                     </div>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
                 </div>
             </div>
+
             <div class="space"></div>
-        </div>
-        <div class="container-fluid">
+
             <div class="row">
-                <div class="col-md-3 col-sm-6 nopadding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h5>Logo Design</h5>
-                                    <p class="lead">Client Seal</p>
-                                    <div class="hline"></div>
-                                </div>
-                                <img src="img/portfolio/01.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 nopadding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h5>Stationery</h5>
-                                    <p class="lead">Design Project</p>
-                                    <div class="hline"></div>
-                                </div>
-                                <img src="img/portfolio/02.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 nopadding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h5>Branding</h5>
-                                    <p class="lead">Metalbrand</p>
-                                    <div class="hline"></div>
-                                </div>
-                            </a>
-                            <img src="img/portfolio/03.jpg" class="img-responsive" alt="...">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 nopadding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h5>Business Card</h5>
-                                    <p class="lead">Clothing Line</p>
-                                    <div class="hline"></div>
-                                </div>
-                            </a>
-                            <img src="img/portfolio/04.jpg" class="img-responsive" alt="...">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="space"></div>
-        <div class="text-center">
-            <a href="#" class="btn read-more-btn">Check on Dribbble</a>
-            <br>
-            <a href="#about-us" class="down-btn page-scroll"><span class="fa fa-angle-down"></span></a>
-        </div>
-    </div>
-
-    <!-- Clients Section -->
-    <div id="clients">
-        <div class="overlay">
-            <div class="container text-center">
-                <div class="section-title">
-                    <h2>Our Partners</h2>
-                    <hr>
-                </div>
-
-                <ul class="clients">
-                    <li><a href="#"><img src="img/clients/01.png" class="img-responsive" alt="..."></a></li>
-                    <li><a href="#"><img src="img/clients/02.png" class="img-responsive" alt="..."></a></li>
-                    <li><a href="#"><img src="img/clients/03.png" class="img-responsive" alt="..."></a></li>
-                    <li><a href="#"><img src="img/clients/04.png" class="img-responsive" alt="..."></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <!-- About Us Section -->
-    <div id="about-us">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="section-title">
-                        <h2>About Us</h2>
-                        <hr>
-                    </div>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                </div>
-            </div>
-            <div class="space"></div>
-            <div class="row">
-                <div class="col-md-10 col-sm-10">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4">
-                            <div class="team">
-                                <img src="img/team/02.jpg" class="img-responsive img-circle" alt="...">
-                                <br>
-                                <h4>Lian Gwapa</h4>
-                                <p class="small">CEO/Founder</p>
-                                <hr>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-4">
-                            <div class="team">
-                                <img src="img/team/04.jpg" class="img-responsive img-circle" alt="...">
-                                <br>
-                                <h4>Jenn Pereira</h4>
-                                <p class="small">Web Coder</p>
-                                <hr>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-4">
-                            <div class="team">
-                                <img src="img/team/03.jpg" class="img-responsive img-circle" alt="...">
-                                <br>
-                                <h4>Alan Podemski</h4>
-                                <p class="small">Web Designer</p>
-                                <hr>
-                            </div>
-                        </div>
-
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="devicon-github-plain colored fa-3x"></span>
+                        <h4>GitHub</h4>
                     </div>
                 </div>
 
-                <div class="col-md-2 col-sm-2">
-                    <div class="team hire">
-                        <h4>We Are Hiring!</h4>
-                        <hr>
-                        <div class="space"></div>
-                        <a href="#">
-                            <span class="fa fa-paper-plane-o fa-2x"></span>
-                        </a>
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="devicon-visualstudio-plain colored fa-3x"></span>
+                        <h4>Visual Studio Code</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="fab fa-npm fa-3x"></span>
+                        <h4>npm</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="devicon-webpack-plain colored fa-3x"></span>
+                        <h4>Webpack</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="devicon-babel-plain colored fa-3x"></span>
+                        <h4>Babel</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="fab fa-figma fa-3x"></span>
+                        <h4>Figma</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="devicon-chrome-plain colored fa-3x"></span>
+                        <h4>Chrome Developer Tools</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="devicon-amazonwebservices-original colored fa-3x"></span>
+                        <h4>AWS</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="devicon-ubuntu-plain colored fa-3x"></span>
+                        <h4>Ubuntu</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="devicon-nginx-plain-wordmark colored fa-3x"></span>
+                        <h4>Nginx</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="devicon-slack-plain colored fa-3x"></span>
+                        <h4>Slack</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <div class="service">
+                        <span class="devicon-git-plain colored fa-3x"></span>
+                        <h4>Git</h4>
                     </div>
                 </div>
             </div>
-
-            <div class="text-center">
-                <a href="#contact" class="page-scroll down-btn">
-                    <span class="fa fa-angle-down"></span>
-                </a>
-            </div>
-
+            <!-- <a href="#works" class="down-btn page-scroll">
+                <span class="fa fa-angle-down"></span>
+            </a> -->
         </div>
     </div>
 
-        <!-- Testimonial Section -->
-    <div id="testimonials">
+        <!-- GitHub Calendar Section -->
+    <div id="gitHubCalendar">
         <div class="overlay">
             <div class="container">
                 <div class="section-title">
-                    <h2>What my Clients Say...</h2>
+                    <h2>GitHub Contributions</h2>
                     <hr>
                 </div>
-
-                <div id="testimonial" class="owl-carousel owl-theme">
-                  <div class="item">
-                    <h3>Et iusto odio dignissimos ducimus qui blanditiis <br>praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint <br>occaecati cupiditate non provident. </h3>
-                    <br>
-                    <h6>LJ, Abc Company</h6>
-                  </div>
-
-                  <div class="item">
-                    <h3>Fusce dapibus, tellus ac cursus commodo, tortor<br> mauris condimentum. Duis mollis, est non commodo luctus, nisi erat </h3>
-                    <br>
-                    <h6>Kai, Web Geekster</h6>
-                  </div>
-
-                  <div class="item">
-                    <h3>Cras justo odio, dapibus ac facilisis in, egestas <br>eget quam. Donec id elit non mi porta gravida at eget metus.</h3>
-                    <br>
-                    <h6>Jenn, Coders' Playground</h6>
-                  </div>
+                <div class="calendar">
+                    <script>
+                        GitHubCalendar(".calendar", "timothywlee");
+                        GitHubCalendar(".calendar", "timothywlee", {responsive: true});
+                    </script>
                 </div>
             </div>
         </div>
@@ -376,57 +397,17 @@
     <div id="contact">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Contact Us</h2>
+                <h2>Contact Me</h2>
                 <hr>
             </div>
             <div class="space"></div>
 
-            <div class="row">
-                <div class="col-md-3">
-                    <address>
-                        <strong>Address</strong><br>
-                        <br>
-                        ThemeForces.Com<br>
-                        Igbalangao, Bugasong, Anitque<br>
-                        5704, Philippines<br>
-                        Phone: (123) 456-7890
-                        <ul class="social">
-                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
-                          </ul>
-                    </address>
-                </div>
-
-                <div class="col-md-9">
-                    <form autocomplete="off">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Your Name">
-                                <input type="text" class="form-control" placeholder="Phone No.">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Email">
-                                <input type="text" class="form-control" placeholder="Subject">
-                            </div>
-                        </div>
-                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
-                        <div class="text-right">
-                            <a href="#" class="btn send-btn">Send</a>
-                        </div>
-                    </form>
-                </div>
-            </div>
         </div>
     </div>
 
     <nav id="footer">
         <div class="container">
-             <div class="pull-left">
-                <p>2014 © Arcadia. All Rights Reserved. Coded by <a href="https://dribbble.com/jennpereira">Jenn</a> & Designed by <a href="https://dribbble.com/alanpodemski">Alan</a></p>
-            </div>
-            <div class="pull-right"> 
+            <div class="pull-right">
                 <a href="#home" class="page-scroll">Back to Top <span class="fa fa-angle-up"></span></a>
             </div>
         </div>
@@ -446,7 +427,7 @@
     <script>
       $(function(){
           $("#head-title").typed({
-            strings: ["We make websites^1000", "24/7 available for hire^1000" ,"Web design with diffence^1000"],
+            strings: ["Full Stack Developer^1000", "24/7 available for hire^1000"],
             typeSpeed: 100,
             loop: true,
             startDelay: 100

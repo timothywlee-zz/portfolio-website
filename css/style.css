@@ -776,7 +776,7 @@ h2.f4.text-normal.mb-3 {
 	height: 300px;
 }
 
-.aboutMe{
+.aboutMeContainer{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;

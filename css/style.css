@@ -770,3 +770,15 @@ h2.f4.text-normal.mb-3 {
 	margin-bottom: 15px !important;
 	color: #c59a6d;
 }
+
+.profilePic{
+	width: 400px;
+	height: 300px;
+}
+
+.aboutMe{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}

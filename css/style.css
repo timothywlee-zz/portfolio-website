@@ -315,7 +315,7 @@ a.btn.go-to-btn:hover{
 	margin: 0 auto;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 30% 0;
+	padding: 24% 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
@@ -734,4 +734,43 @@ h2.f4.text-normal.mb-3 {
 
 .calendar a{
 	color: white
+}
+
+.off-white,
+.lakers{
+	display: block;
+	max-width: 100%;
+	height: 100%;
+}
+.superCarsContainer{
+	display: block;
+	text-align: center;
+}
+.super-cars{
+	display: block;
+	max-width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.lakersMemoryMatch,
+.offWhiteShoesShop,
+.superCars{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.lakersGitHub,
+.offWhiteGitHub,
+.superCarsGitHub{
+	margin-right: 15px;
+}
+
+.lakersGitHub,
+.lakersLive,
+.offWhiteGitHub,
+.offWhiteLive,
+.superCarsGitHub,
+.superCarsGitHub {
+	margin-bottom: 15px !important;
 }

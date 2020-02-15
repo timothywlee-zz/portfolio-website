@@ -62,7 +62,13 @@ a:focus,
 .footerGitHub:hover,
 .footerLinkedIn:hover,
 .footerResume:hover,
-.border:hover{
+.border:hover,
+.aboutMeGitHub:hover,
+.aboutMeLinkedIn:hover,
+.aboutMePhone:hover,
+.aboutMeEmail:hover,
+.aboutMeResume:hover,
+.aboutMeBorder:hover{
 	color: #c59a6d;
 	text-decoration: none;
 }
@@ -853,10 +859,52 @@ h2.f4.text-normal.mb-3 {
 	align-items: center;
 	/* border: 1px solid white; */
 }
+
+.aboutMeLinks{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+}
+
+.aboutMeBorder{
+	height: 4rem;
+	width: 5rem;
+	border: 3px solid black;
+	border-radius: 100px;
+}
+
 .footerLinks .border{
 	height: 5.5rem;
 	width: 5.5rem;
 	color: white;
 	border: 3px solid white;
 	border-radius: 100px;
+}
+
+.aboutMePicLinks{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.aboutMeLinks{
+	margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.aboutMeGitHub,
+.aboutMeLinkedIn,
+.aboutMePhone,
+.aboutMeEmail,
+.aboutMeResume{
+	color: black;
+	margin: 0% 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

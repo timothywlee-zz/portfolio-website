@@ -56,7 +56,13 @@ hr{
 }
 a {color: #222222}
 a:hover,
-a:focus{
+a:focus,
+.footerPhone:hover,
+.footerEmail:hover,
+.footerGitHub:hover,
+.footerLinkedIn:hover,
+.footerResume:hover,
+.border:hover{
 	color: #c59a6d;
 	text-decoration: none;
 }
@@ -481,7 +487,7 @@ ul.clients li{
 
 #contact{
 	background: #282f35;
-	padding: 100px 0;
+	padding: 50px 0 0 0;
 	color: #ffffff;
 }
 
@@ -781,4 +787,76 @@ h2.f4.text-normal.mb-3 {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+}
+
+.footerLocation,
+.footerEmail{
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footerLocationIcon,
+.footerEmailIcon{
+	margin-right: 10px;
+}
+
+.footerPhone{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.footerPhoneIcon{
+	margin-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footerEmailIcon,
+.footerEmailText{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.timothylee{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.footerSpace{
+	padding-top: 35px;
+}
+
+.footerLinks{
+	/* border: 1px solid white; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	font-size: 3.5rem;
+}
+
+.footerGitHub,
+.footerLinkedIn,
+.footerResume{
+	color: white;
+	margin: 0% 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 1px solid white; */
+}
+.footerLinks .border{
+	height: 5.5rem;
+	width: 5.5rem;
+	color: white;
+	border: 3px solid white;
+	border-radius: 100px;
 }

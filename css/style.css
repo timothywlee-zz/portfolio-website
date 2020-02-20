@@ -788,13 +788,6 @@ h2.f4.text-normal.mb-3 {
 	height: 300px;
 }
 
-.aboutMeContainer{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-
 .footerLocation,
 .footerEmail{
 	color: white;
@@ -907,4 +900,12 @@ h2.f4.text-normal.mb-3 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.titleName {
+	font-size: 50px;
+}
+
+.titleContainer hr{
+	margin-top: 10px !important;
 }

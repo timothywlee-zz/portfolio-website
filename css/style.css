@@ -860,6 +860,10 @@ h2.f4.text-normal.mb-3 {
 	/* border: 1px solid white; */
 }
 
+/* .aboutMeContainer{
+	margin: auto;
+} */
+
 .aboutMeLinks{
 	display: flex;
 	justify-content: center;
@@ -887,6 +891,7 @@ h2.f4.text-normal.mb-3 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-top: 10px;
 }
 
 .aboutMeLinks{
@@ -907,4 +912,8 @@ h2.f4.text-normal.mb-3 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.aboutMeDescription{
+	margin-top: 10px;
 }

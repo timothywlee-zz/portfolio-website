@@ -618,8 +618,10 @@ nav#footer{
 #footer a:hover{
 	color: #c59a6d;}
 
-	.calendar {
-    width: 750px;
+.calendar a{
+	color: white
+}
+.calendar {
     font-family: Helvetica, arial;
     border: 1px solid #DDDDDD;
     border-radius: 3px;
@@ -663,7 +665,6 @@ nav#footer{
 
 .calendar-graph {
     padding: 5px 0 0;
-    height: 126px;
     text-align: center;
 }
 
@@ -746,10 +747,6 @@ h2.f4.text-normal.mb-3 {
     display:none;
 }
 
-.calendar a{
-	color: white
-}
-
 .off-white,
 .lakers{
 	display: block;
@@ -813,6 +810,7 @@ h2.f4.text-normal.mb-3 {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	color: white;
 }
 
 .footerPhoneIcon{

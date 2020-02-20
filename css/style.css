@@ -916,3 +916,12 @@ h2.f4.text-normal.mb-3 {
 	margin-top: 10px;
 	padding:0 25px;
 }
+
+.test{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	transition: all 0.3s;
+	position: relative;
+	padding: 20px 0px;
+	display: inline-block;
+}

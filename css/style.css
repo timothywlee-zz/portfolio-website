@@ -268,24 +268,24 @@ a.down-btn span.fa.fa-angle-down {
 	margin: auto 0;
 }
 
-.service{
-	/* border: 1px solid #222; */
+
+.iconContainer{
 	margin-top: 20px;
 	margin-bottom: 0px;
 	transition: all 0.3s;
 	position: relative;
-	padding: 20px 25px;
-	height: 200px;
-	width: 220px;
+	padding: 20px 0px;
+	display: inline-block;
 }
-.service:hover>h4,
-.service:hover>span.fa{
+
+.iconContainer:hover>h4,
+.iconContainer:hover>span.fa{
 	color: #c59a6d;
 }
-.service:hover{
+.iconContainer:hover{
 	border-color: #c59a6d;
 }
-.service p{
+.iconContainer p{
 	font-size: 14px;
 	padding-top: 20px;
 	font-family: 'Lato', sans-serif;
@@ -329,7 +329,7 @@ a.btn.go-to-btn:hover{
 	margin: 0 auto;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 24% 0;
+	padding: 18% 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
@@ -782,9 +782,10 @@ h2.f4.text-normal.mb-3 {
 .offWhiteGitHub,
 .offWhiteLive,
 .superCarsGitHub,
-.superCarsGitHub {
-	margin-bottom: 15px !important;
+.superCarsLive {
+	margin-bottom: 10px !important;
 	color: #c59a6d;
+	font-size: 25px;
 }
 
 .profilePic{
@@ -917,11 +918,32 @@ h2.f4.text-normal.mb-3 {
 	padding:0 25px;
 }
 
-.test{
-	margin-top: 20px;
-	margin-bottom: 0px;
-	transition: all 0.3s;
-	position: relative;
-	padding: 20px 0px;
-	display: inline-block;
+.projectContainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.superCarContainer{
+	margin-top: 30px;
+}
+
+.applicationsDescription{
+	width: 100%;
+}
+
+.projectsText {
+	margin-top: 15px;
+}
+
+.projectsTitleText{
+	font-size: 27px;
+}
+
+.projectsDescription{
+	padding: 0 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

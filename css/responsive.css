@@ -16,9 +16,9 @@ left: 60px;
 height: auto;
 white-space: inherit;
 }
-.hover-bg .hover-text {
+/* .hover-bg .hover-text {
 padding: 15% 0;
-}
+} */
 .aboutMeDescription{
 margin-top: 30px;
 }
@@ -43,9 +43,9 @@ left: 30px;
 .content {
 padding-top: 30%;
 }
-.hover-bg .hover-text {
+/* .hover-bg .hover-text {
 padding: 25% 0;
-}
+} */
 #overview-video .overlay {
     padding: 30% 0px;
 }
@@ -57,9 +57,9 @@ h1 {
 h3 {
     font-size: 11px;
 }
-hover-bg .hover-text {
+/* hover-bg .hover-text {
     padding: 25% 0px;
-}
+} */
 .pull-left,
 .pull-right {
     float: none !important;
@@ -70,7 +70,38 @@ hover-bg .hover-text {
 h1 {
     font-size: 30px;
 }
-hover-bg .hover-text {
+/* hover-bg .hover-text {
     padding: 30% 0px;
+} */
+}
+/* Iphone 6,7,8 Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+.mobile-skills-tools{
+width: calc(35% - 30px);
+padding: 0;
+margin-bottom: 0;
+display: inline-block;
+margin-left: 10px;
+}
+}
+
+/* iphone 6,7,8+ Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+.mobile-skills-tools{
+width: calc(35% - 30px);
+padding: 0;
+margin-bottom: 0;
+display: inline-block;
+margin-left: 10px;
 }
 }

@@ -131,6 +131,9 @@ a:focus,
     -moz-animation: blink 0.5s linear infinite;
     animation: blink 0.5s linear infinite;
 }
+.navbar{
+	font-size: 20px;
+}
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
@@ -225,7 +228,7 @@ background-color: transparent;
 	transition: all 0.3s;
 }
 .add-margin{
-	margin-top: 200px;
+	margin-top: 50%;
 }
 
 #about-me,
@@ -844,7 +847,7 @@ h2.f4.text-normal.mb-3 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 50px;
+	margin-top: 55px;
 	font-size: 3.5rem;
 }
 

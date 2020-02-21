@@ -329,7 +329,7 @@ a.btn.go-to-btn:hover{
 	margin: 0 auto;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 24% 0;
+	padding: 18% 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
@@ -782,9 +782,10 @@ h2.f4.text-normal.mb-3 {
 .offWhiteGitHub,
 .offWhiteLive,
 .superCarsGitHub,
-.superCarsGitHub {
-	margin-bottom: 15px !important;
+.superCarsLive {
+	margin-bottom: 10px !important;
 	color: #c59a6d;
+	font-size: 25px;
 }
 
 .profilePic{
@@ -926,4 +927,23 @@ h2.f4.text-normal.mb-3 {
 
 .superCarContainer{
 	margin-top: 30px;
+}
+
+.applicationsDescription{
+	width: 100%;
+}
+
+.projectsText {
+	margin-top: 15px;
+}
+
+.projectsTitleText{
+	font-size: 27px;
+}
+
+.projectsDescription{
+	padding: 0 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

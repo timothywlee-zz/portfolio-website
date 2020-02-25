@@ -228,6 +228,9 @@ background-color: transparent;
 	opacity: 1;
 	transition: all 0.3s;
 }
+.closeLink{
+	transition: all 0.3s;
+}
 .add-margin{
 	margin-top: 50%;
 }
@@ -793,7 +796,7 @@ h2.f4.text-normal.mb-3 {
 }
 
 .profilePic{
-	width: 400px;
+	width: 450px;
 	height: 300px;
 }
 
@@ -863,9 +866,9 @@ h2.f4.text-normal.mb-3 {
 	/* border: 1px solid white; */
 }
 
-/* .aboutMeContainer{
-	margin: auto;
-} */
+.footerPhoneNumber {
+	cursor: pointer;
+}
 
 .aboutMeLinks{
 	display: flex;

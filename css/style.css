@@ -6,9 +6,8 @@ body, html{
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale;
   overflow-y: auto;
-  overflow-x: hidden;
+	overflow-x: hidden;
 	font-family: 'Montserrat', sans-serif;
-	background-color: none;
 }
 @media (min-width: 1200px){
 	.container {
@@ -154,7 +153,7 @@ span.typed-cursor {
 	top: -5px;
 	position: relative;
 }
-/*.header-text{
+/* .header-text{
 	margin-top: 20px;
 	position: absolute;
 	border: 1px solid #ffffff;
@@ -165,12 +164,12 @@ span.typed-cursor {
 	padding: 20px;
 	position: relative;
 	margin: 0 auto;
-}*/
+} */
 nav#menu span.fa.fa-bars{
-	font-size: 30px;
+	font-size: 40px;
 	position: fixed;
 	left: 120px;
-	color: #c0c0c0;
+	color: #C59A6D;
 	cursor: pointer;
 	z-index: 1;
 }
@@ -509,6 +508,8 @@ ul.clients li{
 	background: #282f35;
 	padding: 50px 0 0 0;
 	color: #ffffff;
+	margin-top: -1px;
+	margin-bottom: -1px;
 }
 
 ul.social li{

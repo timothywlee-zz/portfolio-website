@@ -15,6 +15,7 @@ left: 60px;
 .header-text.btn {
 height: auto;
 white-space: inherit;
+cursor: initial;
 }
 /* .hover-bg .hover-text {
 padding: 15% 0;

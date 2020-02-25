@@ -101,7 +101,10 @@ a:focus,
 	border-radius: 0;
 	padding: 10px 30px;
 	height: 100px;
+	cursor: initial;
+
 }
+
 .header-text.btn:hover{
 	color: inherit;
 }

@@ -10,26 +10,24 @@
 
 @media only screen and (max-width: 608px){
 nav#menu span.fa.fa-bars {
-left: 60px;
+    left: 60px;
 }
 .header-text.btn {
-height: auto;
-white-space: inherit;
-cursor: initial;
+    height: auto;
+    white-space: inherit;
+    cursor: initial;
 }
-/* .hover-bg .hover-text {
-padding: 15% 0;
-} */
+
 .aboutMeDescription{
-margin-top: 30px;
+    margin-top: 30px;
 }
 
 .mobile-skills-tools{
-width: calc(50% - 30px);
-padding: 0;
-margin-bottom: 0;
-display: inline-block;
-margin-left: 10px;
+    width: calc(50% - 30px);
+    padding: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    margin-left: 10px;
 }
 
 }
@@ -44,9 +42,6 @@ left: 30px;
 .content {
 padding-top: 30%;
 }
-/* .hover-bg .hover-text {
-padding: 25% 0;
-} */
 #overview-video .overlay {
     padding: 30% 0px;
 }
@@ -59,9 +54,6 @@ h1 {
 h3 {
     font-size: 11px;
 }
-/* hover-bg .hover-text {
-    padding: 25% 0px;
-} */
 
 .pull-left,
 .pull-right {
@@ -73,9 +65,6 @@ h3 {
 h1 {
     font-size: 30px;
 }
-/* hover-bg .hover-text {
-    padding: 30% 0px;
-} */
 }
 /* Iphone 6,7,8 Landscape */
 @media only screen
@@ -85,11 +74,11 @@ h1 {
   and (orientation: landscape) {
 
 .mobile-skills-tools{
-width: calc(35% - 30px);
-padding: 0;
-margin-bottom: 0;
-display: inline-block;
-margin-left: 10px;
+    width: calc(35% - 30px);
+    padding: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    margin-left: 10px;
 }
 }
 
@@ -103,11 +92,11 @@ margin-left: 10px;
   and (orientation: landscape) {
 
 .mobile-skills-tools{
-width: calc(35% - 30px);
-padding: 0;
-margin-bottom: 0;
-display: inline-block;
-margin-left: 10px;
+    width: calc(35% - 30px);
+    padding: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    margin-left: 10px;
 }
 }
 
@@ -118,7 +107,7 @@ margin-left: 10px;
   and (-webkit-min-device-pixel-ratio: 2) {
 
 .profilePic{
-padding-left: 25px;
-padding-right: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 }

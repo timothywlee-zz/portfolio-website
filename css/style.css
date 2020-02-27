@@ -156,18 +156,7 @@ span.typed-cursor {
 	top: -5px;
 	position: relative;
 }
-/* .header-text{
-	margin-top: 20px;
-	position: absolute;
-	border: 1px solid #ffffff;
-	left: 25%;
-	right: 25%;
-}
-.header-text h1{
-	padding: 20px;
-	position: relative;
-	margin: 0 auto;
-} */
+
 nav#menu span.fa.fa-bars{
 	font-size: 40px;
 	position: fixed;
@@ -851,7 +840,6 @@ h2.f4.text-normal.mb-3 {
 }
 
 .footerLinks{
-	/* border: 1px solid white; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -867,7 +855,6 @@ h2.f4.text-normal.mb-3 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* border: 1px solid white; */
 }
 
 .footerPhoneNumber {

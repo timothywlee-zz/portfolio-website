@@ -6,6 +6,9 @@
 .col-sm-3 {
     width: 33.3333%;
 }
+.navbarText{
+    font-size: 30px;
+}
 }
 
 @media only screen and (max-width: 608px){

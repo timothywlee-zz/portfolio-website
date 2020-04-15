@@ -951,6 +951,7 @@ h2.f4.text-normal.mb-3 {
 
 .projectsText {
 	margin-top: 15px;
+	padding: 0 8%;
 }
 
 .projectsTitleText{
@@ -966,4 +967,8 @@ h2.f4.text-normal.mb-3 {
 
 .portfolio-item{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.offWhiteProject .hover-text{
+	padding: 15px 0;
 }

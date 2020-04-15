@@ -73,13 +73,13 @@ a:focus,
 	text-decoration: none;
 }
 #home{
-	background: url(../img/bg1.jpg);
+	background: url(../img/portfolio/headerimg.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: auto;
-	min-height: 710px;
+	min-height: 800px;
 	padding-top: 60px;
 	color: #ffffff;
 }
@@ -119,7 +119,7 @@ a:focus,
 	outline-offset: -2px;
 }
 .titleName {
-	font-size: 50px;
+	font-size: 65px;
 }
 
 .titleContainer hr{
@@ -791,6 +791,7 @@ h2.f4.text-normal.mb-3 {
 .profilePic{
 	width: 450px;
 	height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .footerLocation,
@@ -861,6 +862,19 @@ h2.f4.text-normal.mb-3 {
 	cursor: pointer;
 }
 
+#about-me > .container{
+	margin: auto;
+}
+
+.aboutMeNameText{
+	font-size: 35px;
+}
+
+.aboutMePhoneText,
+.aboutMeEmailText{
+	font-size: 16px;
+}
+
 .aboutMeLinks{
 	display: flex;
 	justify-content: center;
@@ -905,15 +919,18 @@ h2.f4.text-normal.mb-3 {
 .aboutMeEmail,
 .aboutMeResume{
 	color: black;
-	margin: 0% 2%;
+	margin: 0% 3%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.aboutMeDescription{
+.aboutMeDescriptionContainer{
 	margin-top: 10px;
 	padding:0 25px;
+}
+.aboutMeDescription{
+	font-size: 15px;
 }
 
 .projectContainer{
@@ -944,4 +961,8 @@ h2.f4.text-normal.mb-3 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.portfolio-item{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
